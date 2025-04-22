@@ -1,0 +1,11 @@
+gfx/env/waterworld09bk.tga
+gfx/env/waterworld09dn.tga
+gfx/env/waterworld09ft.tga
+gfx/env/waterworld09lf.tga
+gfx/env/waterworld09rt.tga
+gfx/env/waterworld09up.tga
+sound/caribbean/bells.wav
+sound/caribbean/titanic.wav
+sound/caribbean/ocean.wav
+sound/caribbean/gulls.wav
+maps/he_caribbean.bsp
