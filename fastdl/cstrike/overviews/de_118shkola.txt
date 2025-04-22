@@ -1,0 +1,14 @@
+// overview description file for de_118shkola.bsp
+
+global 
+{
+	ZOOM	2.71
+	ORIGIN	-864.66 -368.40	279.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/de_118shkola.bmp"
+	HEIGHT	-75.00
+}
