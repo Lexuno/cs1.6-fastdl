@@ -1,0 +1,618 @@
+hlcsg v3.4 VL34 64-bit (Aug 17 2015)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlcsg -----
+Command line: "C:/Program Files (x86)/Steam/steamapps/common/Half-Life/cstrike/tools/hlcsg_x64.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\maps\de_barangay" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\maps\de_barangay" -low -wadautodetect 
+Entering C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\maps\de_barangay.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       4 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad configuration file[    None ] [    None ]
+wad.cfg group name    [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+convert game_text     [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[zhlt.wad]
+
+CreateBrush:
+ (1.95 seconds)
+CSGBrush:
+ (0.84 seconds)
+
+Including Wadfile: /Program Files (x86)/Steam/steamapps/common/Half-Life/cstrike/tools/zhlt.wad
+ - Contains 1 used texture, 0.68 percent of map (19 textures in wad)
+Using Wadfile: /Program Files (x86)/Steam/steamapps/common/Half-Life/cstrike/maps/de_manila.wad
+ - Contains 146 used textures, 99.32 percent of map (167 textures in wad)
+
+Wad files required to run the map: "de_manila.wad;"
+Texture usage is at 7.32 mb (of 32.00 mb MAX)
+3.44 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 VL34 64-bit (Aug 17 2015)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlbsp -----
+Command line: "C:/Program Files (x86)/Steam/steamapps/common/Half-Life/cstrike/tools/hlbsp_x64.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\maps\de_barangay" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\maps\de_barangay" -low -chart 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       4 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] 500...1000...1500...2000...2500...3000...3500...4000...4500...5000...5500...6000...6500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2016,-1568,112)-(-1792,-1518,126) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2112,-1568,112)-(-2016,-1518,126) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+7000...7500...7655 (0.69 seconds)
+BSP generation successful, writing portal file 'C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\maps\de_barangay.prt'
+SolidBSP [hull 1] 500...1000...1500...2000...2500...3000...3500...4000...4500...4715 (0.44 seconds)
+SolidBSP [hull 2] 500...1000...1500...2000...2500...3000...3500...4000...4059 (0.35 seconds)
+SolidBSP [hull 3] 500...1000...1500...2000...2500...3000...3500...4000...4500...5000...5153 (0.49 seconds)
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1650,-1364,18)-(-1647,-1361,26) in hull 0 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1693,-1379,18)-(-1666,-1345,26) in hull 0 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1633,-1379,57)-(-1632,-1347,82) in hull 1 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1685,-1334,-18)-(-1670,-1315,57) in hull 1 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1685,-1334,-18)-(-1670,-1315,57) in hull 1 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-12159,-1380,-79663)-(12022,19675,62) in hull 1 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-12159,-1380,-79663)-(12022,19675,62) in hull 1 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1635,-1381,-18)-(-1622,-1366,57) in hull 1 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-69613,-27714,-79662)-(46371,56278,79150) in hull 1 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (144000,144000,144000)-(-144000,-144000,-144000) in hull 2 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1617,-1395,53)-(-1616,-1327,78) in hull 2 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1701,-1318,-14)-(-1686,-1299,53) in hull 2 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1701,-1318,-14)-(-1686,-1299,53) in hull 2 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-12176,-1396,-79666)-(12007,19660,66) in hull 2 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-12176,-1396,-79666)-(12007,19660,66) in hull 2 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1619,-1397,-14)-(-1612,-1388,53) in hull 2 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-66526,-1467,-148)-(-1564,38629,79143) in hull 2 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1633,-1379,39)-(-1632,-1347,64) in hull 3 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-50727,-61862,-80000)-(50107,62365,80000) in hull 3 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1635,-1381,0)-(-1619,-1362,39) in hull 3 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-69611,-27720,-79662)-(46381,56280,79150) in hull 3 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1685,-1334,0)-(-1676,-1322,39) in hull 3 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1685,-1334,0)-(-1676,-1322,39) in hull 3 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-12161,-1380,-79663)-(12025,19679,80) in hull 3 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-12161,-1380,-79663)-(12025,19679,80) in hull 3 of model 2 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-78825,-1216,-9610)-(-2027,13749,80000) in hull 1 of model 4 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2085,-1217,-18)-(-2080,-1212,14) in hull 1 of model 4 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2085,-1216,-18)-(-2080,-1212,14) in hull 1 of model 4 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2088,-1272,-18)-(-2064,-1267,57) in hull 1 of model 4 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-78822,-1200,-9607)-(-2011,13768,80000) in hull 2 of model 4 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2101,-1201,-14)-(-2096,-1196,18) in hull 2 of model 4 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2101,-1200,-14)-(-2096,-1196,18) in hull 2 of model 4 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2104,-1288,-14)-(-2080,-1283,53) in hull 2 of model 4 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2088,-1272,39)-(-2064,-1267,64) in hull 3 of model 4 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2051,-1216,-0)-(-2027,-1212,39) in hull 3 of model 4 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2085,-51183,-79624)-(1847,-1184,79) in hull 3 of model 4 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2085,-51183,-79624)-(1847,-1184,79) in hull 3 of model 4 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2088,-1268,-0)-(-2083,-1267,39) in hull 3 of model 4 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2088,-1272,-0)-(-2064,-1267,39) in hull 3 of model 4 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1968,-1277,21)-(-1963,-1272,45) in hull 0 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1969,-1276,21)-(-1964,-1271,46) in hull 0 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1975,-1285,21)-(-1969,-1279,45) in hull 0 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1990,-1303,21)-(-1976,-1287,45) in hull 0 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1983,-1292,21)-(-1979,-1289,46) in hull 0 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1990,-1301,21)-(-1978,-1286,46) in hull 0 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1981,-1272,18)-(-1965,-1258,21) in hull 0 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1997,-1290,18)-(-1981,-1276,21) in hull 0 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1985,-1260,62)-(-1980,-1255,86) in hull 1 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1985,-1259,57)-(-1982,-1255,62) in hull 1 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1992,-1268,62)-(-1986,-1262,86) in hull 1 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1999,-1307,57)-(-1996,-1273,82) in hull 1 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2009,-1284,57)-(-1993,-1270,86) in hull 1 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2009,-1284,57)-(-1993,-1270,86) in hull 1 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2009,-1308,57)-(-1995,-1295,82) in hull 1 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1953,-1297,9)-(-1947,-1290,57) in hull 1 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1959,-1301,-18)-(-1953,-1295,9) in hull 1 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-54432,-65522,-5036)-(-1950,-1293,77967) in hull 1 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2000,-1308,-18)-(-1995,-1303,14) in hull 1 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2009,-1308,-18)-(-1963,-1306,10) in hull 1 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2001,-1244,58)-(-1996,-1239,82) in hull 2 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2001,-1243,53)-(-1998,-1239,58) in hull 2 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2035,-1275,31)-(60315,53684,79484) in hull 2 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2014,-1259,58)-(-2009,-1254,82) in hull 2 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2015,-1324,53)-(-2011,-1321,58) in hull 2 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2015,-1261,53)-(-2008,-1250,58) in hull 2 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1935,-1311,13)-(-1931,-1306,53) in hull 2 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1943,-1317,-14)-(-1937,-1311,13) in hull 2 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1949,-1322,-14)-(-1944,-1319,18) in hull 2 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2029,-1322,-14)-(-2013,-1308,53) in hull 2 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1949,-1324,-7)-(-1945,-1322,18) in hull 2 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2013,-1324,-7)-(-1945,-1322,53) in hull 2 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1985,-1260,44)-(-1980,-1255,68) in hull 3 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1985,-1259,39)-(-1982,-1255,44) in hull 3 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1992,-1268,44)-(-1986,-1262,68) in hull 3 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1999,-1307,39)-(-1996,-1273,64) in hull 3 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2009,-1284,39)-(-1993,-1270,68) in hull 3 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2009,-1284,39)-(-1993,-1270,68) in hull 3 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2009,-1307,39)-(-1996,-1295,64) in hull 3 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1950,-1294,27)-(-1947,-1290,39) in hull 3 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1965,-1258,-0)-(-1947,-1242,39) in hull 3 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1959,-1301,-0)-(-1953,-1295,27) in hull 3 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-54432,-65522,-5018)-(-1950,-1293,77985) in hull 3 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2005,-1308,-0)-(-1995,-1299,39) in hull 3 of model 5 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1427,-1427,362)-(-1387,-1417,364) in hull 0 of model 6 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1397,-1456,368)-(-1393,-1446,370) in hull 0 of model 6 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1447,-1446,418)-(-1367,-1418,423) in hull 1 of model 6 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1447,-1481,418)-(-1367,-1418,423) in hull 1 of model 6 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1513,-1465,-9095)-(80000,47006,333) in hull 1 of model 6 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1463,-1430,414)-(-1351,-1402,419) in hull 2 of model 6 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1463,-1497,414)-(-1351,-1402,419) in hull 2 of model 6 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-80000,-1481,-15211)-(80000,78541,337) in hull 2 of model 6 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1447,-1446,400)-(-1367,-1418,405) in hull 3 of model 6 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1447,-1481,400)-(-1367,-1418,405) in hull 3 of model 6 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1513,-1465,-9077)-(80000,47006,351) in hull 3 of model 6 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1081,-1835,0)-(-926,-1646,12) in hull 1 of model 31 (entity: classname "func_breakable", origin "", targetname "bsit")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1097,-1851,4)-(-910,-1630,16) in hull 2 of model 31 (entity: classname "func_breakable", origin "", targetname "bsit")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-565,-590,170)-(-510,-552,173) in hull 0 of model 71 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-514,-563,209)-(-510,-560,234) in hull 1 of model 71 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-514,-574,134)-(-494,-560,209) in hull 1 of model 71 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-514,-574,134)-(-494,-560,209) in hull 1 of model 71 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-9495,-618,-80000)-(-551,5521,209) in hull 1 of model 71 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-498,-547,205)-(-494,-544,230) in hull 2 of model 71 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-498,-553,138)-(-485,-544,205) in hull 2 of model 71 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-498,-553,138)-(-485,-544,205) in hull 2 of model 71 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-9510,-634,-80000)-(-567,5505,205) in hull 2 of model 71 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-514,-563,191)-(-510,-560,216) in hull 3 of model 71 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-66364,-3723,-80000)-(4088,44682,80000) in hull 3 of model 71 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-560,-626,152)-(-540,-612,191) in hull 3 of model 71 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-560,-626,152)-(-540,-612,191) in hull 3 of model 71 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (61,587,185)-(66,588,210) in hull 1 of model 98 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (24,532,185)-(29,533,210) in hull 1 of model 98 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (61,584,110)-(85,588,185) in hull 1 of model 98 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (61,584,110)-(85,588,185) in hull 1 of model 98 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (24,528,110)-(48,533,185) in hull 1 of model 98 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (77,603,181)-(82,604,206) in hull 2 of model 98 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (8,516,181)-(13,517,206) in hull 2 of model 98 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (77,600,114)-(101,604,181) in hull 2 of model 98 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (77,600,114)-(101,604,181) in hull 2 of model 98 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (8,512,114)-(32,517,181) in hull 2 of model 98 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (24,532,167)-(29,533,192) in hull 3 of model 98 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (61,584,128)-(85,588,167) in hull 3 of model 98 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (61,584,128)-(85,588,167) in hull 3 of model 98 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (24,528,128)-(48,533,167) in hull 3 of model 98 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (169,572,146)-(197,597,154) in hull 0 of model 100 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (153,552,146)-(184,579,154) in hull 0 of model 100 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (137,560,185)-(141,563,190) in hull 1 of model 100 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (123,560,110)-(141,576,185) in hull 1 of model 100 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (121,544,181)-(125,547,186) in hull 2 of model 100 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (107,545,114)-(123,560,181) in hull 2 of model 100 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (123,544,122)-(187,545,181) in hull 2 of model 100 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (137,560,167)-(141,563,172) in hull 3 of model 100 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (171,610,128)-(189,626,167) in hull 3 of model 100 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (123,560,128)-(141,576,167) in hull 3 of model 100 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2009,804,137)-(-2000,808,162) in hull 1 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2000,770,137)-(-2000,804,162) in hull 1 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2020,805,137)-(-2015,808,162) in hull 1 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2068,804,137)-(-2020,808,167) in hull 1 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2068,804,137)-(-2020,808,167) in hull 1 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2056,803,137)-(-2056,808,162) in hull 1 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2056,802,44)-(-2056,810,137) in hull 1 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2000,770,62)-(-2000,795,137) in hull 1 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2041,770,70)-(-2036,773,95) in hull 1 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2056,770,70)-(-2047,773,95) in hull 1 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1993,820,133)-(-1984,824,158) in hull 2 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1984,754,133)-(-1984,820,158) in hull 2 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2004,821,133)-(-1999,824,158) in hull 2 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2084,820,133)-(-2004,824,163) in hull 2 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2084,820,133)-(-2004,824,163) in hull 2 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2072,819,133)-(-2072,824,158) in hull 2 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2072,819,48)-(-2072,826,133) in hull 2 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1984,754,66)-(-1984,779,133) in hull 2 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2057,754,74)-(-2052,757,99) in hull 2 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2072,754,74)-(-2063,757,99) in hull 2 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2009,804,119)-(-2000,808,144) in hull 3 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2000,770,119)-(-2000,804,182) in hull 3 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2020,805,119)-(-2015,808,144) in hull 3 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2056,804,119)-(-2020,808,149) in hull 3 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2056,804,119)-(-2020,808,149) in hull 3 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2056,802,62)-(-2056,810,119) in hull 3 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2000,770,80)-(-2000,795,119) in hull 3 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2041,770,88)-(-2036,773,113) in hull 3 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2056,770,88)-(-2047,773,113) in hull 3 of model 146 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1952,770,62)-(-1952,795,137) in hull 1 of model 147 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1988,770,62)-(-1977,774,95) in hull 1 of model 147 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2008,770,70)-(-1988,773,90) in hull 1 of model 147 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2008,771,70)-(-1993,773,90) in hull 1 of model 147 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1936,754,66)-(-1936,779,133) in hull 2 of model 147 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2004,754,66)-(-1993,758,99) in hull 2 of model 147 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2024,754,74)-(-2004,757,94) in hull 2 of model 147 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2024,755,74)-(-2009,757,94) in hull 2 of model 147 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2008,804,124)-(-1972,807,149) in hull 3 of model 147 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1952,770,80)-(-1952,826,119) in hull 3 of model 147 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1988,770,80)-(-1977,774,113) in hull 3 of model 147 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2008,770,88)-(-1988,773,108) in hull 3 of model 147 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2008,771,88)-(-1993,773,108) in hull 3 of model 147 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1952,888,137)-(-1952,892,162) in hull 1 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1961,888,137)-(-1952,892,162) in hull 1 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1972,888,137)-(-1967,891,162) in hull 1 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2008,888,137)-(-1972,892,167) in hull 1 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1988,922,62)-(-1937,926,95) in hull 1 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1952,901,-80000)-(-1952,928,1572) in hull 1 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-79960,-9514,-79516)-(80072,926,95) in hull 1 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1996,923,70)-(-1988,926,95) in hull 1 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2008,923,70)-(-1988,926,96) in hull 1 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1936,873,133)-(-1936,876,158) in hull 2 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1945,872,133)-(-1936,876,158) in hull 2 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1956,872,133)-(-1951,875,158) in hull 2 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2823,-80016,-80000)-(-1207,79976,80000) in hull 2 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2036,872,133)-(-1956,876,163) in hull 2 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2004,938,66)-(-1922,942,99) in hull 2 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1936,917,66)-(-1936,942,133) in hull 2 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1936,917,66)-(-1936,942,133) in hull 2 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-79960,-9499,-79518)-(80072,942,99) in hull 2 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2012,939,74)-(-2004,942,99) in hull 2 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2024,939,74)-(-2004,942,100) in hull 2 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1952,869,119)-(-1952,926,144) in hull 3 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1961,888,119)-(-1952,892,144) in hull 3 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1972,888,119)-(-1967,891,144) in hull 3 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2020,888,119)-(-1972,892,149) in hull 3 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1988,922,80)-(-1937,926,113) in hull 3 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1952,901,-80000)-(-1952,928,1572) in hull 3 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-79960,-9517,-79516)-(80072,926,113) in hull 3 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1996,923,88)-(-1988,926,113) in hull 3 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2008,923,88)-(-1988,926,114) in hull 3 of model 148 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (144000,144000,144000)-(-144000,-144000,-144000) in hull 0 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2040,904,98)-(-2040,907,106) in hull 0 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2000,892,137)-(-2000,926,162) in hull 1 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (144000,144000,144000)-(-144000,-144000,-144000) in hull 1 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2056,888,137)-(-2020,892,167) in hull 1 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2036,922,62)-(-2000,926,95) in hull 1 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2000,900,-80000)-(-2000,926,80000) in hull 1 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2056,923,70)-(-2036,926,90) in hull 1 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2056,923,70)-(-2036,926,90) in hull 1 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2056,890,62)-(-2056,923,90) in hull 1 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1984,876,133)-(-1983,942,158) in hull 2 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (144000,144000,144000)-(-144000,-144000,-144000) in hull 2 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2072,872,133)-(-2004,876,163) in hull 2 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2052,938,66)-(-1984,942,99) in hull 2 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1984,916,-80000)-(-1984,942,80000) in hull 2 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2072,939,74)-(-2052,942,94) in hull 2 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2072,939,74)-(-2052,942,94) in hull 2 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2072,874,66)-(-2072,939,94) in hull 2 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2056,889,124)-(-2020,892,149) in hull 3 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2000,889,119)-(-2000,926,124) in hull 3 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2000,870,108)-(-1999,926,119) in hull 3 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2000,870,80)-(-1999,926,108) in hull 3 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2056,923,88)-(-2041,925,108) in hull 3 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2056,923,88)-(-2036,926,108) in hull 3 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1820,925,68)-(-1784,928,95) in hull 1 of model 150 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1820,925,70)-(-1784,928,137) in hull 1 of model 150 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1784,903,62)-(-1784,925,137) in hull 1 of model 150 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1831,924,62)-(-1820,928,95) in hull 1 of model 150 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1831,924,62)-(-1820,928,95) in hull 1 of model 150 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1825,925,70)-(-1820,928,95) in hull 1 of model 150 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1840,924,62)-(-1831,925,70) in hull 1 of model 150 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1836,941,69)-(-1768,944,99) in hull 2 of model 150 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1836,941,74)-(-1768,944,133) in hull 2 of model 150 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1768,871,66)-(-1767,941,133) in hull 2 of model 150 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1847,940,66)-(-1836,943,94) in hull 2 of model 150 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1840,940,66)-(-1836,943,94) in hull 2 of model 150 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1856,940,66)-(-1847,941,74) in hull 2 of model 150 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1820,925,86)-(-1784,928,113) in hull 3 of model 150 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1820,925,88)-(-1784,928,119) in hull 3 of model 150 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1784,871,80)-(-1784,925,119) in hull 3 of model 150 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1831,924,80)-(-1820,928,113) in hull 3 of model 150 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1831,924,80)-(-1820,928,113) in hull 3 of model 150 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1825,925,88)-(-1820,928,113) in hull 3 of model 150 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1840,924,80)-(-1831,925,88) in hull 3 of model 150 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (144000,144000,144000)-(-144000,-144000,-144000) in hull 0 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1872,906,98)-(-1872,909,106) in hull 0 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1832,893,137)-(-1832,927,162) in hull 1 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1832,871,137)-(-1832,893,162) in hull 1 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1841,890,137)-(-1832,893,162) in hull 1 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1852,890,137)-(-1847,893,162) in hull 1 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1852,890,137)-(-1841,893,162) in hull 1 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (144000,144000,144000)-(-144000,-144000,-144000) in hull 1 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1868,925,70)-(-1832,928,137) in hull 1 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1832,871,62)-(-1831,925,137) in hull 1 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1873,925,70)-(-1868,928,95) in hull 1 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1888,925,70)-(-1879,928,95) in hull 1 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1816,877,133)-(-1816,943,158) in hull 2 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1816,855,133)-(-1816,877,158) in hull 2 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1825,874,133)-(-1816,877,158) in hull 2 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1836,874,133)-(-1831,877,158) in hull 2 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1836,874,133)-(-1825,877,158) in hull 2 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1904,874,133)-(-1836,877,158) in hull 2 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1904,855,133)-(-1904,877,158) in hull 2 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1884,941,74)-(-1816,944,133) in hull 2 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1816,856,66)-(-1815,941,133) in hull 2 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1889,941,74)-(-1884,944,99) in hull 2 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1904,941,74)-(-1895,944,99) in hull 2 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1832,890,119)-(-1832,927,124) in hull 3 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1868,925,88)-(-1832,928,119) in hull 3 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1873,925,88)-(-1868,928,113) in hull 3 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1888,925,88)-(-1879,928,113) in hull 3 of model 151 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (144000,144000,144000)-(-144000,-144000,-144000) in hull 0 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1872,791,98)-(-1872,794,106) in hull 0 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1832,772,137)-(-1832,809,142) in hull 1 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1832,772,62)-(-1832,797,137) in hull 1 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1832,772,62)-(-1832,829,137) in hull 1 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1868,772,62)-(-1863,776,95) in hull 1 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1868,772,62)-(-1832,776,95) in hull 1 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1873,772,70)-(-1868,775,95) in hull 1 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1879,772,70)-(-1868,775,95) in hull 1 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1816,756,133)-(-1816,825,138) in hull 2 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1816,756,66)-(-1816,781,133) in hull 2 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1816,756,66)-(-1816,845,133) in hull 2 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1884,756,66)-(-1879,760,99) in hull 2 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1884,756,66)-(-1816,760,99) in hull 2 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1889,756,74)-(-1884,759,99) in hull 2 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1895,756,74)-(-1884,759,99) in hull 2 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1832,772,119)-(-1832,809,124) in hull 3 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1832,772,108)-(-1831,828,119) in hull 3 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1832,772,108)-(-1832,829,119) in hull 3 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1832,772,80)-(-1832,797,108) in hull 3 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1832,772,80)-(-1832,829,108) in hull 3 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1868,772,80)-(-1832,776,108) in hull 3 of model 152 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1784,806,137)-(-1784,829,162) in hull 1 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1793,806,137)-(-1784,809,162) in hull 1 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1804,806,137)-(-1799,809,162) in hull 1 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-79986,806,-60442)-(-1784,8937,167) in hull 1 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1840,807,137)-(-1840,829,162) in hull 1 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1784,772,62)-(-1784,797,137) in hull 1 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1820,772,62)-(-1784,776,95) in hull 1 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1825,772,70)-(-1820,775,95) in hull 1 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1831,772,70)-(-1820,775,95) in hull 1 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1840,772,70)-(-1831,775,95) in hull 1 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1840,772,70)-(-1831,775,95) in hull 1 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1768,822,133)-(-1768,845,158) in hull 2 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1777,822,133)-(-1768,825,158) in hull 2 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1788,822,133)-(-1783,825,158) in hull 2 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-79986,822,-60458)-(-1768,8955,163) in hull 2 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1856,823,133)-(-1856,845,158) in hull 2 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1768,756,66)-(-1768,781,133) in hull 2 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1836,756,66)-(-1768,760,99) in hull 2 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1841,756,74)-(-1836,759,99) in hull 2 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1847,756,74)-(-1836,759,99) in hull 2 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1856,756,74)-(-1847,759,99) in hull 2 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1856,756,74)-(-1847,759,99) in hull 2 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1793,806,119)-(-1784,809,144) in hull 3 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1804,806,119)-(-1799,809,144) in hull 3 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-79986,806,-60460)-(-1784,8937,149) in hull 3 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2446,-79984,-80000)-(-1246,80012,80000) in hull 3 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1784,772,80)-(-1784,797,119) in hull 3 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-80076,-9708,-27350)-(80033,3430,79495) in hull 3 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1825,772,88)-(-1820,775,113) in hull 3 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1831,772,88)-(-1820,775,113) in hull 3 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1840,772,88)-(-1831,775,113) in hull 3 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1840,772,88)-(-1831,775,113) in hull 3 of model 153 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1491,589,-2)-(-1479,602,61) in hull 1 of model 197 (entity: classname "func_breakable", origin "", targetname "bsit")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1508,573,-2)-(-1491,591,81) in hull 1 of model 197 (entity: classname "func_breakable", origin "", targetname "bsit")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1510,573,-3)-(-1507,576,65) in hull 1 of model 197 (entity: classname "func_breakable", origin "", targetname "bsit")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1617,469,-5)-(-1508,573,83) in hull 1 of model 197 (entity: classname "func_breakable", origin "", targetname "bsit")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1634,617,-5)-(-1564,684,-1) in hull 1 of model 197 (entity: classname "func_breakable", origin "", targetname "bsit")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1475,573,49)-(-1464,584,65) in hull 2 of model 197 (entity: classname "func_breakable", origin "", targetname "bsit")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1625,696,53)-(-1625,697,71) in hull 2 of model 197 (entity: classname "func_breakable", origin "", targetname "bsit")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1492,557,50)-(-1475,573,85) in hull 2 of model 197 (entity: classname "func_breakable", origin "", targetname "bsit")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1662,659,87)-(-1661,662,151) in hull 2 of model 197 (entity: classname "func_breakable", origin "", targetname "bsit")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1493,557,50)-(-1492,558,69) in hull 2 of model 197 (entity: classname "func_breakable", origin "", targetname "bsit")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1646,411,50)-(-1492,557,87) in hull 2 of model 197 (entity: classname "func_breakable", origin "", targetname "bsit")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1548,506,-2)-(-1463,586,50) in hull 2 of model 197 (entity: classname "func_breakable", origin "", targetname "bsit")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1649,673,21)-(-1621,701,71) in hull 2 of model 197 (entity: classname "func_breakable", origin "", targetname "bsit")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1491,589,16)-(-1479,602,79) in hull 3 of model 197 (entity: classname "func_breakable", origin "", targetname "bsit")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1508,573,16)-(-1491,591,99) in hull 3 of model 197 (entity: classname "func_breakable", origin "", targetname "bsit")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1510,573,15)-(-1507,576,83) in hull 3 of model 197 (entity: classname "func_breakable", origin "", targetname "bsit")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1617,469,13)-(-1508,573,101) in hull 3 of model 197 (entity: classname "func_breakable", origin "", targetname "bsit")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1646,643,68)-(-1645,646,137) in hull 3 of model 197 (entity: classname "func_breakable", origin "", targetname "bsit")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1634,617,13)-(-1564,684,17) in hull 3 of model 197 (entity: classname "func_breakable", origin "", targetname "bsit")
+Reduced 28590 clipnodes to 26534
+Reduced 3343 texinfos to 3200
+Reduced 147 texdatas to 147 (7584 bytes to 7584)
+Reduced 57800 planes to 13532
+FixBrinks:
+Increased 26534 clipnodes to 26661.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models            198/512        12672/32768    (38.7%)
+planes          13532/32768     270640/655360   (41.3%)
+vertexes        26846/65535     322152/786420   (41.0%)
+nodes           11475/32767     275400/786408   (35.0%)
+texinfos         3200/32767     128000/1310680  ( 9.8%)
+faces           17835/65535     356700/1310700  (27.2%)
+* worldfaces    12684/32768          0/0        (38.7%)
+clipnodes       26661/32767     213288/262136   (81.4%)
+leaves           8461/32760     236908/917280   (25.8%)
+* worldleaves    5251/8192           0/0        (64.1%)
+marksurfaces    23464/65535      46928/131070   (35.8%)
+surfedges       84201/512000    336804/2048000  (16.4%)
+edges           45177/256000    180708/1024000  (17.6%)
+texdata          [variable]       7584/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]      33945/2097152  ( 1.6%)
+* AllocBlock       49/64             0/0        (76.6%)
+147 textures referenced
+=== Total BSP file data space used: 2421729 bytes ===
+Wad files required to run the map: "de_manila.wad;"
+7.38 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlrad v3.4 VL34 64-bit (Aug 17 2015)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlrad -----
+Command line: "C:/Program Files (x86)/Steam/steamapps/common/Half-Life/cstrike/tools/hlrad_x64.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\maps\de_barangay" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\maps\de_barangay" -low 
+
+-= Current hlrad Settings =-
+Name                | Setting             | Default
+--------------------|---------------------|-------------------------
+threads              [                 4 ] [            Varies ]
+verbose              [               off ] [               off ]
+log                  [                on ] [                on ]
+developer            [                 0 ] [                 0 ]
+chart                [               off ] [               off ]
+estimate             [               off ] [               off ]
+max texture memory   [          33554432 ] [          33554432 ]
+max lighting memory  [          50331648 ] [          50331648 ]
+priority             [               Low ] [            Normal ]
+
+fast rad             [               off ] [               off ]
+vismatrix algorithm  [            Sparse ] [            Sparse ]
+oversampling (-extra)[               off ] [               off ]
+bounces              [                 8 ] [                 8 ]
+ambient light        [ 0.000 0.000 0.000 ] [ 0.000 0.000 0.000 ]
+light limit threshold[           188.000 ] [           188.000 ]
+circus mode          [               off ] [               off ]
+
+smoothing threshold  [            50.000 ] [            50.000 ]
+smoothing threshold 2[         no change ] [         no change ]
+direct threshold     [            10.000 ] [            10.000 ]
+direct light scale   [             1.000 ] [             1.000 ]
+coring threshold     [             0.010 ] [             0.010 ]
+patch interpolation  [                on ] [                on ]
+
+texscale             [                on ] [                on ]
+patch subdividing    [                on ] [                on ]
+chop value           [            64.000 ] [            64.000 ]
+texchop value        [            32.000 ] [            32.000 ]
+
+global fade          [             1.000 ] [             1.000 ]
+global texlight gap  [             0.000 ] [             0.000 ]
+global light scale   [ 2.000 2.000 2.000 ] [ 2.000 2.000 2.000 ]
+global gamma         [ 0.550 0.550 0.550 ] [ 0.550 0.550 0.550 ]
+global light scale   [             2.000 ] [             2.000 ]
+global sky diffusion [             1.000 ] [             1.000 ]
+
+spread angles        [                on ] [                on ]
+opaque entities      [                on ] [                on ]
+sky lighting fix     [                on ] [                on ]
+incremental          [               off ] [               off ]
+dump                 [               off ] [               off ]
+
+colour jitter        [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+monochromatic jitter [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+
+custom shadows with bounce light
+                     [               off ] [               off ]
+rgb transfers        [               off ] [               off ]
+minimum final light  [                 0 ] [                 0 ]
+size of transfer     [         1 (16bit) ] [         1 (16bit) ]
+size of rgbtransfer  [         2 (32bit) ] [         2 (32bit) ]
+soft sky             [                on ] [                on ]
+translucent depth    [             2.000 ] [             2.000 ]
+block opaque         [                on ] [                on ]
+ignore textures      [               off ] [               off ]
+reflectivity gamma   [             1.760 ] [             1.760 ]
+reflectivity scale   [             0.700 ] [             0.700 ]
+blur size            [             1.500 ] [             1.500 ]
+no emitter range     [               off ] [               off ]
+wall bleeding fix    [                on ] [                on ]
+
+
+Load Textures:
+Using Wadfile: C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\maps\de_barangay.wa_
+147 textures referenced
+Reading texlights from 'C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\tools\lights.rad'
+Warning: No vis information.
+0 opaque models
+0 opaque faces
+17835 faces
+Create Patches : 53455 base patches
+632512 square feet [91081760.00 square inches]
+3 direct lights and 16386 fast direct lights
+1 light styles
+
+FindFacePositions:
+ (3.08 seconds)
+BuildFacelights:
+ (53.26 seconds)
+BuildVisLeafs:
+ (56.12 seconds)
+visibility matrix   :  37.0 megs
+MakeScales:
+ (43.19 seconds)
+Transfer Lists :    76952058 :    76.95M transfers
+       Indices :    65327708 :    62.30M bytes
+          Data :   154062420 :   146.93M bytes
+Bounce 1 GatherLight:
+ (0.49 seconds)
+Bounce 2 GatherLight:
+ (0.49 seconds)
+Bounce 3 GatherLight:
+ (0.48 seconds)
+Bounce 4 GatherLight:
+ (0.49 seconds)
+Bounce 5 GatherLight:
+ (0.47 seconds)
+Bounce 6 GatherLight:
+ (0.51 seconds)
+Bounce 7 GatherLight:
+ (0.47 seconds)
+Bounce 8 GatherLight:
+ (0.49 seconds)
+CreateTriangulations:
+ (0.15 seconds)
+AddPatchLights:
+ (2.54 seconds)
+FinalLightFace:
+ (0.02 seconds)
+163.57 seconds elapsed [2m 43s]
+
+-----   END   hlrad -----
+
+
+
